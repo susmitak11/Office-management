@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OfficeMgmt.Models
 {
-    public class AttendanceContext : DbContext
+    public class AttendanceContext : DbContext//context  used for attendance class
     {
         public AttendanceContext (DbContextOptions<AttendanceContext> options)
             : base(options)

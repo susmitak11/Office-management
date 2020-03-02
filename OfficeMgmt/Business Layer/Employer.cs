@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace OfficeMgmt.Models
 {
-    public class Employer
+    public class Employer// class used
     {
-        [Key]
-        public int ID { get; set; }
+        [Key]// primary key used
+        public int ID { get; set; }// fields that need to be filled
         public string CompanyName { get; set; }
         public string EmployerName { get; set; }
         public string Gmail { get; set; }

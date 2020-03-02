@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OfficeMgmt.Models
 {
-    public class DepartmentContext : DbContext
+    public class DepartmentContext : DbContext//context used for department class
     {
         public DepartmentContext (DbContextOptions<DepartmentContext> options)
             : base(options)

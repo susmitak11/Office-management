@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OfficeMgmt.Models
 {
-    public class EmployerContext : DbContext
+    public class EmployerContext : DbContext//context used for employer class
     {
         public EmployerContext (DbContextOptions<EmployerContext> options)
             : base(options)

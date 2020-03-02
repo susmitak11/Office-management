@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace OfficeMgmt.Models
 {
-    public class Attendance
+    public class Attendance //this is the class 
     {
-        [Key]
-        public int ID { get; set; }
+        [Key]// primary key
+        public int ID { get; set; }// this are the fields in the project
         [ForeignKey("Employee")]
         public int Employee_ID { get; set; }
         [ForeignKey("Employer")]
         public int Employer_ID { get; set; }
-        [ForeignKey("Department")]
+        [ForeignKey("Department")]//foreign key
         public int Department_ID { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }

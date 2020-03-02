@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace OfficeMgmt.Models
 {
-    public class Department
+    public class Department// class used
     {
-        [Key]
-        public int ID { get; set; }
+        [Key]//primary key
+        public int ID { get; set; }//this is the fields need to be filled
         public string Name { get; set; }
         public string Description { get; set; }
     }
